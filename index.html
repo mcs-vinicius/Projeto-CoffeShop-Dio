@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="Assets/css/style.css">
+  <link rel="shortcut icon" href="Assets/img/coffe-favicon.gif" type="image/x-icon">
+  <title>Café com propósito</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Assets/img/Logo.png" alt="Logo Café com proposito"
+          style="width: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#local">Local</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- End NavBar-->
+
+  <main>
+    <!-- Carousel -->
+    <header id="carousel-coffe" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="Assets/img/Carousel-01.jpg" class="d-block w-100" alt="Café em uma mesa com grãos em volta.">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A melhor experiência gastronómica de café.</h5>
+            <p>Você irá experimentar os melhores cafés do Brasil e do mundo.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="Assets/img/Carousel-02.jpg" class="d-block w-100" alt="A recpção da cafeteria Café com proposito.">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Um ambiente pensado para você e sua familía.</h5>
+            <p>Nossa cafeteria foi projetada para te fornecer um amabiente confortável, tranquilo e leve.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/img/Carousel-03.jpg" class="d-block w-100" alt="Grãos selecionados da melhor qualidade.">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Os melhores grãos</h5>
+            <p>Trabalhamos com igredientes selecionados, da melhor qualidade, do jeito que você merece!.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffe" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffe" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <!-- End carrosel -->
+
+    <!-- Quote -->
+    <figure>
+      <blockquote class="blockquote">
+        <h3 class="fw-lighter text-center fst-italic mt-5">"O amor é um café as oito da manhã numa segunda-feira"</h3>
+      </blockquote>
+      <figcaption class="blockquote-footer text-center">
+        <cite title="Source Title">Café com proposito</cite>
+      </figcaption>
+    </figure>
+    <!-- End quote-->
+
+    <!-- About Cards -->
+    <section id="about" class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Assets/img/Coment-coffe-01.jpg" class="img-fluid rounded-start"
+                  alt="Pessoas consumindo café felizes">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Somos apaixonados por Café.</h5>
+                  <h6 class="card-subtitle text-muted mb-3">Acreditamos que o café pode mudar o seu dia.</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, ab
+                    perspiciatis! At impedit odit nam et pariatur provident nostrum, tempore quia atque necessitatibus
+                    laudantium consectetur alias ipsum corrupti quisquam magni?.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Assets/img/Coment-coffe-02.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Equipe premium de baristas.</h5>
+                  <h6 class="card-subtitle text-muted mb-3">Temos os melhores profissionais prontos para melhor atender
+                    você!.</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, ab
+                    perspiciatis! At impedit odit nam et pariatur provident nostrum, tempore quia atque necessitatibus
+                    laudantium consectetur alias ipsum corrupti quisquam magni?.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Cards -->
+
+    <!-- Menu -->
+    <section id="menu" class="container mt-5 mb-5">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#espresso-tab"
+            type="button" role="tab" aria-controls="espresso-tab" aria-selected="true">Expressos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#cappuccino-tab" type="button"
+            role="tab" aria-controls="cappuccino-tab" aria-selected="false">Capuccinos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#iced-coffe-tab" type="button"
+            role="tab" aria-controls="iced-coffe-tab" aria-selected="false">Gelados</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#specials-coffe-tab"
+            type="button" role="tab" aria-controls="specials-coffe-tab" aria-selected="false">Especiais</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="coffeTabContent">
+        <div class="tab-pane fade show active" id="espresso-tab" role="tabpanel" aria-labelledby="home-tab"
+          tabindex="0">
+          <!-- Card 1-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&1" class="card-img-top" alt="Café">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&2" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&3" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&4" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&5" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&6" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="cappuccino-tab" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+          <!-- Card 2-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&7" class="card-img-top" alt="Café">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&8" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&9" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&10" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&11" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&12" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="iced-coffe-tab" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+          <!-- Card 3-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&13" class="card-img-top" alt="Café">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&14" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&15" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&16" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&17" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&18" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="specials-coffe-tab" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+          <!-- Card 4-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&19" class="card-img-top" alt="Café">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&20" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?coffee&21" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee name</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Local -->
+    <section id="local" class="container text-center mb-5">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localModal">
+        Quero conhecer o Café com proposito
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="localModal" tabindex="-1" aria-labelledby="localModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="localModalLabel">Estamos te esperando!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Te esperamos na Rua Colonia de Assunção n°975</p>
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe width="100%" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=avenida+paulista+n1000&t=&z=18&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://online-timer.me/">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center bg-dark p-5 mt-5">
+    <img width="80" src="Assets/img/Logo.png" alt="Logo da cafeteria café com proposito">
+    <p class="mb-0 fw-bold">
+      Café com proposito | Transformando sua vida com café
+    </p>
+    <p>(11) 98888-7777</p>
+
+  </footer>
+  <!-- Script pra colocar no final da pagina -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

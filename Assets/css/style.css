@@ -1,0 +1,55 @@
+:root{
+    --bs-link-color: #848a91;
+    --bs-link-hover-color: #65696e;
+}
+
+.btn{
+    --bs-btn-bg: #a6afb9;
+    --bs-btn-hover-bg: #9aa3aa;
+    --bs-btn-active-bg: #75828b ; 
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 5px #848a91;
+    
+}
+
+section{
+    scroll-margin-top: 6rem;
+}
+
+/* Carousel */
+
+.carousel-item{
+    height: 500px;
+    image-rendering: auto;
+
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 31));
+    position: absolute;
+}
+.carousel-item h5, p{
+    color: white;
+}
+
+.card-text{
+    color: black;
+}
+
+main{
+    margin-top: 5rem;
+}
+
+.card-menu img{
+    height: 300px;
+    object-fit: cover;
+}
